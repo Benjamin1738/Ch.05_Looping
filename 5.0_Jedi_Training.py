@@ -3,15 +3,15 @@
 '''
  1. Make the following program work.
    '''  
-     print("This program takes three numbers and returns the sum.")
-     total = 0
+print("This program takes three numbers and returns the sum.")
+total = 0
 
-     for i in range(3):
-         x = input("Enter a number: ")
-         total = total + i
-     print("The total is:", x)
+for i in range(3):
+    x = input("Enter a number: ")
+# total = x + i
+print("The total is:", x)
   
-
+# print(i+x)
 
 '''
   2. Write a Python program that will use a FOR loop to print the even
