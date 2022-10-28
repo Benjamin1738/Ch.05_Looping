@@ -19,7 +19,7 @@ import random
 
 # total = 0
 # for i in range(1,101):
-#     # num = int(input("Enter a number"))
+#     #num = int(input("Enter a number"))
 #     total += i
 # print("The total number is", total,)
 #
@@ -48,18 +48,41 @@ import random
 #     print(num)
 # randint- exculsive inculsive  100,200,2    randrange highest number
 
+#
+# done = False
+# while not done:
+#     guesses = 0
+#     winner = False
+#     num = random.randint(1,101)
+# while not winner:
+#     guess = input("Guess a number between 1 and 100")
+#     guesses+=1
+#     if guess > num:
+#         print("Too high!")
+#     elif guess < num:
+#         print("Too low")
+#     else:
+#
+#
+#         done = True
+#     else:
+#         perseverance += 1
+# print("Goodbye! Your perseverance level is", perseverance,)
 
-done = False
-while not done:
-    guesses = 0
-    winner = False
-    num = random.randint(1,101)
-while not winner:
-    guess = input("Guess a number between 1 and 100")
-    guess+=1
-    if guess > num:
 
-        done = True
-    else:
-        perseverance += 1
-print("Goodbye! Your perseverance level is", perseverance,)
+# for letter in "Death Star":
+#     if letter == " ":
+#         continue
+#     print("Current letter:", letter)
+
+
+# var=0
+# while var <= 10:
+#     var+=1
+#     if var%2 !=0:
+#         continue
+#     print("Current Variable value:", var)
+# print("GoodBye!")
+
+# break ends loop
+# pass is place holder doesnt do nothing
